@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "scripts": {
-    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "npm run start --prefix backend"
+  "scripts": {
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/yonas-baysasaw/University-Student-Hub/issues"
   },
-  "homepage": "https://github.com/yonas-baysasaw/University-Student-Hub#readme"
+  "homepage": "https://github.com/yonas-baysasaw/University-Student-Hub#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
